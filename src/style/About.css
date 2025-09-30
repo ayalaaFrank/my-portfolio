@@ -12,14 +12,11 @@
 }
 
 .about h2 {
-  color: #14b8a6;
   font-size: 2rem;
-  margin-bottom: 1.5rem;
-  font-weight: 700;
-  letter-spacing: 1px;
-  background: none;
-  border: none;
-  position: relative;
+  font-weight: 300;
+  color: #1e293b;
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.5px;
 }
 
 .about h2::after {
