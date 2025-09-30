@@ -11,7 +11,7 @@ export default function Navbar() {
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
-          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
         </div>
         <button className="menu-btn" onClick={() => setMenuOpen(!menuOpen)}>
           {menuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -22,7 +22,7 @@ export default function Navbar() {
           <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
           <a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a>
           <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
-          <a href="#experience" onClick={() => setMenuOpen(false)}>Experience</a>
+          <a href="#skills" onClick={() => setMenuOpen(false)}>Skills</a>
         </div>
       )}
     </nav>
